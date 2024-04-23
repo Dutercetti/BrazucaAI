@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --verde-brazucaAi: ;
+    --azul-brazucaAi: ;
+    --amarelo-brazucaAi: ;
+    --preto-brazucaAi: ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 100vh;
+
+    background-image:url(IMG/background_home.png);
+    background-repeat: no-repeat;
+
+    background-position: fill; 
+}
